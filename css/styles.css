@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #40514E;
+}
+p{
+  font-size: large;
+  line-height: 2;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #11999E;
+}
+
+h2{
+  font-size: 2.3rem;
+  color: #045762;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-size: 1.40rem;
+  color: #11999E;
+}
+hr{
+  border: 6px dotted grey;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contactmsg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a{
+  color:#045762;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAf6f6;
+}
+.copyright{
+  font-size: small;
+  color: #EAf6f6;
+  padding: 20px 0px;;
+}
+.top{
+  background-color: #d0e8f2;
+  padding-top: 100px;
+
+}
+.middle{
+  /* background-color: rgb(236, 189, 213); */
+  margin: 100px 0px;
+}
+.bottom{
+  background-color: #66BFBF;
+  padding: 30px 0 10px;
+}
+
+.bottomcloud{
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+}
+
+.topcloud{
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+.skill-row{
+  width: 50%;
+  margin: 6.25em auto;
+  text-align: left;
+}
+.image-cropper {
+  width: auto;
+  height: 12.25rem;
+  border-radius: 50%;
+}
+
+.image-web{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.image-cup{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  clear: both;
+}
+.btn {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  padding: 7px;
+  font-family: 'Merriweather', serif;
+  -webkit-box-shadow: 1px 1px 22px 0 #FFFFFF;
+  -moz-box-shadow: 1px 1px 22px 0 #FFFFFF;
+  box-shadow: 1px 1px 22px 0 #FFFFFF;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #25D6F4;
+  border: solid #000000 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
